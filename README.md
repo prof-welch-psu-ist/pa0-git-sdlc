@@ -8,13 +8,13 @@ This is to say: give yourself time to reach out to me or one of the course LAs/I
 
 In this first part you'll practice: running tests, writing tests, identifying bugs using tests, and implementing bug fixes. You'll also learn some basic aspects of project maintenance (specifically related to dependencies and build scripts).
 
-First, `cd` into the directory where you are storing your work for 311 this semester and clone this repo. Next, open the cloned repo in IntelliJ (`File > Open` then navigate to the cloned project folder on your hard drive).
+First, `cd` into the directory where you are storing your work for 311 this semester and clone this repo. Next, open the cloned repo in IntelliJ (`File > Open` then navigate to the cloned project folder on your hard drive). 
 
-> If you want a video walkthrough of me doing cloning a sample repo, check the Lesson notes regarding use of the terminal and git under Module 02 on canvas (and/or consult the media gallery on canvas -- which contains the recording).
+> Consult the Lesson notes regarding use of the terminal and git under Module 02 on canvas (this is a pdf). Additionally, there is a video walkthrough of me using the terminal and doing basic git operations on a sample project.
 
 ### Code Specification:
 
-We are solving a classic interview problem, finding the longest prefix in an ArrayList of Strings. These types of problems feature heavily in interviews, and String manipulation  Here is the problem statement for the longest common prefix problem:
+We are solving a classic interview problem, finding the longest prefix in an ArrayList of Strings. These types of problems feature heavily in interviews, and String manipulation. Here is the problem statement for the longest common prefix problem:
 
 > You must find the longest common prefix in an array of Strings. If there is no common prefix, return an empty string (i.e. ""). If there is a common prefix, return it as a String
 
@@ -29,7 +29,7 @@ We are solving a classic interview problem, finding the longest prefix in an Arr
 
 Rather than using the version of jUnit packaged with IntelliJ (as we did in a prior activity), the starter kit for this repo includes a **maven** `pom.xml` in the root directory of your cloned repo. There are build tools out there for Java (some more complicated than others) though maven is pretty much the de-facto standard, followed closely by **gradle**. 
 
-Any serious project should maintain a build script -- even small to medium sized projects. Such scripts not only define how executables for the project get built, but they can also enforce a project-specific structure (such as code formatting settings), and automatically fetch any and all dependencies for the project. A simple, well written, and easy to understand build script is a nice, durable way of managing codebases long term (especially those that are reliant on many different libraries). 
+Any serious project should maintain a build script -- even small to medium sized projects. These not only define how executables for the project get built, but they also declare and automatically pull-in any library dependencies your project might rely on. A simple, well written, and easy to understand build script is a nice, durable way of managing codebases long term (especially those that are reliant on many different libraries). 
 
 First: you'll need to add a dependency for jUnit to a skeleton `pom.xml` included in the starter kit. Go to the maven (mvn) central repo [here](https://mvnrepository.com/) and search for `jUnit'. Select the one near the top with "jupiter api" in the title. Select whatever the most recent version is (for me, it's `5.10.1`). Once you click the version, you should see a dependency like so:
 
@@ -47,6 +47,8 @@ The `mvncentralrepo` website should supply you with the full dependency (includi
 </dependencies>
 ```
 
+Once you add this dependency, exp
+
 ### Step 1: review the existing prefix-finding code
 
-In the blue `src` folder in the starter kit for this repo, you'll find an existing solution and some test cases (in the green folder marked `test`). 
+In the blue `src` folder in the starter kit for this repo, you'll find an existing solution. Existing test cases are located in the green folder marked `test`.
