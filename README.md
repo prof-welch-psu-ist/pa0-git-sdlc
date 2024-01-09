@@ -73,7 +73,7 @@ Add some additional unit tests to improve code coverage and build overall confid
 
 From the Meyer course text, read the preface, chapter 1, and chapter 3, and section 7.5 (on TDD). Write a reflection - 3/4 of a page, 12pt font double spaced - outlining Meyer's view on Agile methods, some of the benefits, and what the author considers some of the downsides. Discuss at least two alternative (existing) SDLC process models. What's one of his identified 'upsides' for the waterfall approach? Include in your answer some of his identified criticisms of TDD in addition to your own thoughts.
 
-Submit your reflection as a `.pdf` in the root directory of this project -- and be sure you commit it to version control! Then push your work.
+Submit your reflection as a `.pdf` in the root directory of this project -- and be sure you commit it to version control! 
 
 # Handin
 
