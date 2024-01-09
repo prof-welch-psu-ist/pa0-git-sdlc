@@ -1,6 +1,6 @@
 # `git`, the SDLC, and TDD -- oh my!
 
-In this initial "pseudo-ish" :-) programming assignment, you'll practice debugging, test driven-development (TDD), and generally familiarize yourself in working with git and the terminal. I strongly recommend starting on this early in the event that you encounter process related issues -- such as commiting and/or pushing your work. Give yourself time to reach to me or one of the LAs/IAs/TAs.
+In this initial "pseudo-ish" :-) programming assignment, you'll practice debugging, test driven-development (TDD), and generally familiarize yourself in working with git and the terminal. I strongly recommend starting on this early in the event that you encounter process related issues -- such as commiting and/or pushing your work. Give yourself time to reach out to me or one of the course LAs/IAs/TAs.
 
 ## Part 1: Test Driven Development (TDD)
 
