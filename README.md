@@ -6,7 +6,7 @@ This is to say: give yourself time to reach out to me or one of the course LAs/I
 
 ## Part 1: Test Driven Development (TDD)
 
-In this first part you'll practice: running tests, writing tests, identifying bugs using tests, and implementing bug fixes. You'll also learn some basic aspects of project maintenance (specifically related to dependencies and build scripts).
+In this first part you'll practice: running tests, writing tests, identifying bugs using tests, and implementing corresponding fixes. You'll also learn some basic aspects of project maintenance (specifically related to dependencies and build scripts).
 
 First, `cd` into the directory where you are storing your work for 311 this semester and clone this repo. Next, open the cloned repo in IntelliJ (`File > Open` then navigate to the cloned project folder on your hard drive). 
 
