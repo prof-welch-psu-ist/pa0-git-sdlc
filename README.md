@@ -29,9 +29,9 @@ We are solving a classic interview problem, finding the longest prefix in an Arr
 
 Rather than using the version of jUnit packaged with IntelliJ (as we did in a prior activity), the starter kit for this repo includes a **maven** `pom.xml` in the root directory of your cloned repo. There are build tools out there for Java (some more complicated than others) though maven is pretty much the de-facto standard, followed closely by **gradle**. 
 
-Any serious project should maintain a build script -- even small to medium sized projects. These not only define how executables for the project get built, but they also declare and automatically pull-in any library dependencies your project might rely on. A simple, well written, and easy to understand build script is a nice, durable way of managing codebases long term (especially those that are reliant on many different libraries). 
+Any serious project should maintain a build script -- even small to medium sized projects. These not only define how executables for the project get built, but they also declare and automatically pull-in any library dependencies for your project. A simple, well written, and easy to understand build script is a nice, durable way of managing codebases long term (especially those that are reliant on many different libraries). 
 
-First: you'll need to add a dependency for jUnit to a skeleton `pom.xml` included in the starter kit. Go to the maven (mvn) central repo [here](https://mvnrepository.com/) and search for `jUnit'. Select the one near the top with "jupiter api" in the title. Select whatever the most recent version is (for me, it's `5.10.1`). Once you click the version, you should see a dependency like so:
+First: you'll need to add a dependency for jUnit to the skeleton `pom.xml` included in the starter kit. Go to the maven (mvn) central repo [here](https://mvnrepository.com/) and search for `jUnit'. Select the one near the top with "jupiter api" in the title. Select whatever the most recent version is (for me, it's `5.10.1`). Once you click the version, you should see a dependency like so:
 
 ```
 <dependency>
@@ -71,9 +71,11 @@ Add some additional unit tests to improve code coverage and build overall confid
 
 ## Part 2: Agile, the Software Development Lifecycle (SDLC), and Process Modeling
 
-From the Meyer course text, read the preface, chapter 1, and chapter 3, and section 7.5 (on TDD). Write a reflection - 3/4 of a page, 12pt font double spaced - outlining Meyer's view on Agile methods, some of the benefits, and what the author considers some of the downsides. Discuss at least two alternative (existing) SDLC process models. What's one of his identified 'upsides' for the waterfall approach? Include in your answer some of his identified criticisms of TDD in addition to your own thoughts.
+From the Meyer course text, read the preface, chapter 1, and chapter 3, and section 7.5 (on TDD). 
 
-Submit your reflection as a `.pdf` in the root directory of this project -- and be sure you commit it to version control! 
+Write a reflection - 3/4 of a page - outlining Meyer's view on Agile methods, some of the benefits, and what the author considers some of the downsides. Discuss at least two alternative (existing) SDLC process models. What's one of his identified 'upsides' for the waterfall approach? Include in your answer some of his identified criticisms of TDD in addition to your own thoughts.
+
+Submit your reflection as a `.pdf` in the root directory of this project -- and be sure you commit it to version control.
 
 # Handin
 
