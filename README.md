@@ -1,18 +1,20 @@
 # `git`, the SDLC, and TDD -- oh my!
 
-In this initial "pseudo-ish" :-) programming assignment, you'll practice debugging, test driven-development (TDD), and generally familiarize yourself in working with git and the terminal. I strongly recommend starting on this early in the event that you encounter process related issues -- such as commiting and/or pushing your work. Give yourself time to reach out to me or one of the course LAs/IAs/TAs.
+In this initial "pseudo-ish" :-) programming assignment, you'll practice debugging, test driven-development (TDD), and generally familiarize yourself in working with git and the terminal. I strongly recommend starting on this early in the event that you encounter process related issues -- such as commiting and/or pushing your work. 
+
+This is to say: give yourself time to reach out to me or one of the course LAs/IAs/TAs.
 
 ## Part 1: Test Driven Development (TDD)
 
-In this first part you'll practice: running tests, writing tests, identifying bugs using tests, and implementing bug fixes. 
+In this first part you'll practice: running tests, writing tests, identifying bugs using tests, and implementing bug fixes. You'll also learn some basic aspects of project maintenance (specifically related to dependencies and build scripts).
 
-First, `cd` into the directory where you are storing your work for 311 this semester, clone this repo, then open the cloned repo in IntelliJ. 
+First, `cd` into the directory where you are storing your work for 311 this semester and clone this repo. Next, open the cloned repo in IntelliJ (`File > Open` then navigate to the cloned project folder on your hard drive).
 
-> If you want a video walkthrough of me doing this on a sample repo, check the Lesson notes regarding use of the terminal and git under Module 02 on canvas. And/or consult the media gallery on canvas -- which contains a recording.
+> If you want a video walkthrough of me doing cloning a sample repo, check the Lesson notes regarding use of the terminal and git under Module 02 on canvas (and/or consult the media gallery on canvas -- which contains the recording).
 
 ### Code Specification:
 
-We are solving a classic interview problem, finding the longest prefix in an ArrayList of Strings. These types of problems feature heavily in interviews, and String manipulation in general is a very routine practice that you as a developer should be familiar with. Here is the problem statement for the longest common prefix problem:
+We are solving a classic interview problem, finding the longest prefix in an ArrayList of Strings. These types of problems feature heavily in interviews, and String manipulation  Here is the problem statement for the longest common prefix problem:
 
 > You must find the longest common prefix in an array of Strings. If there is no common prefix, return an empty string (i.e. ""). If there is a common prefix, return it as a String
 
@@ -23,17 +25,27 @@ We are solving a classic interview problem, finding the longest prefix in an Arr
 - ["dog", "racecar", "car"], we would return ""
 - in this array [], we would return "" as there are no strings at all
 
-### Step 0: adding dependencies of `jUnit`
+### Step 0: adding `jUnit` as a dependency
 
-Rather than using the version of jUnit packaged with IntelliJ (as we did with a prior activity), the starter kit for this repo includes a **maven** `pom.xml` in the root directory of your cloned repo. 
+Rather than using the version of jUnit packaged with IntelliJ (as we did in a prior activity), the starter kit for this repo includes a **maven** `pom.xml` in the root directory of your cloned repo. There are build tools out there for Java (some more complicated than others) though maven is pretty much the de-facto standard, followed closely by **gradle**. 
 
-This is an example of *build script* -- in developers can define how executables for their project's get built, as well as libraries and dependencies that their project might depend on. A simple, well written build scripts is nice, durable way of handling and managing codebases long term (especially those that rely on many different libraries -- 99% of which won't be packaged with in IntelliJ). 
+Any serious project should maintain a build script -- even small to medium sized projects. Such scripts not only define how executables for the project get built, but they can also enforce a project-specific structure (such as code formatting settings), and automatically fetch any and all dependencies for the project. A simple, well written, and easy to understand build script is a nice, durable way of managing codebases long term (especially those that are reliant on many different libraries). 
 
-There are many different types of build tools out there for Java (some more complicated than others -- e.g., **gradle**.. *my 2cents only..*). Maven is pretty much the de-facto standard. 
+First: you'll need to add a dependency for jUnit to a skeleton `pom.xml` included in the starter kit. Go to the maven (mvn) central repo [here](https://mvnrepository.com/) and search for `jUnit'. Select the one near the top with "jupiter api" in the title. Select whatever the most recent version is (for me, it's `5.10.1`). Once you click the version, you should see a dependency like so:
 
-First: you'll need to add a dependency to minimal `pom.xml` included in the starter kit. First go to the maven (mvn) central repo [here]().
+```
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+   // more will be here (don't put this comment in the real one
+</dependency>
+```
+The `mvncentralrepo` website should supply you with the full dependency (including the version). Paste it within the`<dependencies>` block below:
 
-
+```
+<dependencies>
+    <!-- paste your jUnit jupiter dependency here -->
+</dependencies>
+```
 
 ### Step 1: review the existing prefix-finding code
 
