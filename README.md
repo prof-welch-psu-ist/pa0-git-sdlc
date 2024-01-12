@@ -67,15 +67,15 @@ Now add a new test where you pass an empty ArrayList to the `findLongestCommonPr
 
 ### Step 3: (optional) 
 
-Add some additional unit tests to improve code coverage and build overall confidence that the algorithm (as given) is working correctly. If you add a test and you find that it fails try to identify and fix the bug in the algorithm. If you find a but but can't figure out how adjust the algorithm leave a comment indicating this along with the failing test(s).
+Add some additional unit tests to improve code coverage and build overall confidence that the algorithm (as given) is working correctly. If you add a test and you find that it fails try to identify and fix the bug in the longest prefix algorithm. If you find a bug, but can't figure out how adjust the algorithm, keep failing test(s).
 
-## Part 2: Agile, the Software Development Lifecycle (SDLC), and Process Modeling
+## Part 2: Reflections on Agile, the Software Development Lifecycle (SDLC), and Process Modeling
 
 From the Meyer course text, read the preface, chapter 1, and chapter 3, and section 7.5 (on TDD). 
 
 Write a reflection - 3/4 of a page - outlining Meyer's view on Agile methods, some of the benefits, and what the author considers some of the downsides. Discuss at least two alternative (existing) SDLC process models. What's one of his identified 'upsides' for the waterfall approach? Include in your answer some of his identified criticisms of TDD in addition to your own thoughts.
 
-Submit your reflection as a `.pdf` in the root directory of this project -- and be sure you commit it to version control.
+Submit your reflection as a `.pdf` or `.doc` in the root directory of this project -- and be sure you commit it to version control.
 
 # Handin
 
