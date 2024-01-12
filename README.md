@@ -51,7 +51,7 @@ Once you add this dependency, expand the tool window for maven and click reload:
 
 ![maven tool window button](img/mvn-reload.png)
 
-This should pull in the jUnit dependency you added to the `pom.xml`.
+This should pull in the jUnit dependency you added to the `pom.xml`. Once you do this, the `test` folder should turn a light green color (incidicating its a 'test' directory that mirrors the setup of your source 'src' directory) + the errors with the imports in the `TestLongestCommonPrefix` file should be gone.
 
 ### Step 1: review the existing prefix-finding code
 
