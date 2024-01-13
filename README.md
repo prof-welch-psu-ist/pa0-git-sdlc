@@ -10,7 +10,7 @@ In this first part you'll practice: running tests, writing tests, identifying bu
 
 First, `cd` into the directory where you are storing your work for 311 this semester and clone this repo. Next, open the cloned repo in IntelliJ (`File > Open` then navigate to the cloned project folder on your hard drive). 
 
-> Consult `M02-L03-Git and Terminal` on canvas for notes on working with the terminal and git (on macOS and windows). 
+> Consult `M02-L03-Git and Terminal` on canvas for notes on working with the terminal and git (on macOS and Windows). 
 
 ### Code Specification:
 
