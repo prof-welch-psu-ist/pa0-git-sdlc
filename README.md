@@ -75,7 +75,7 @@ From the Meyer course text, read the preface, chapter 1, and chapter 3, and sect
 
 Write a reflection - 3/4 of a page - outlining Meyer's view on Agile methods, some of the benefits, and what the author considers some of the downsides. Discuss at least two alternative (existing) SDLC process models. Include what Meyer thinks of the Waterfall process model (what's one minor 'upside' he attributes to it)? Include in your answer some of his identified criticisms of TDD -- does Meyer's characterization match the approach discussed in the `M02-L02` lecture?
 
-Submit your reflection as a `.pdf` or `.doc` or `.md` (markdown file) in the root directory of this project -- be sure you commit your document to version control. You can tell if it's properly added by looking at your project repo on github.
+Submit your reflection as a `.pdf` or `.md` ([markdown file](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)) in the root directory of this project -- be sure you commit your document to version control. You can tell if it's properly added by looking at your project repo on github.
 
 # Handin
 
